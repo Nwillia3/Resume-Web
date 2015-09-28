@@ -1,0 +1,1483 @@
+
+*{
+	box-sizing; border-box;
+}
+
+html{
+	font-family: sans-serif;
+}
+
+body{
+	margin:auto;
+	display: block;
+	font-family: helvetica, Arial, sans-serif;
+	background-color: white;
+	width: 100%;
+}
+
+body h1,h2,h3{
+	font-family: 'Amatic SC', cursive;
+}
+article,aside,details,figcaption,figure,
+footer,header,hgroup,nav,section,summary{
+	display:block;
+}
+
+div{
+	display: block;
+}
+									/* overall defaults for website ABOVE*/
+	/* nav */
+.navbar-brand{
+	float: left;
+	padding-left: 15px;
+	padding-right: 15px;
+	line-height: 17px;
+	height: 50px;
+	color: white;
+	font-family: 'Amatic SC', cursive;
+	font-size: 1.55em;
+}
+
+.nav-fixed-top{
+	position: relative;
+}
+.navbar-toggle{
+	position: relative;
+	float: right;
+	background-color: ;
+	background-image: none;
+	border:1px solid transparent;
+	border-color: #600000;	
+	border-radius: 2px;	
+}
+
+button .icon-bar{
+	background-color: white;
+	
+}
+ ul li a{
+	color: white;
+	font: bold;
+	font-family: 'Times New Roman', arial. sans-serif;
+}
+
+.container-fluid{
+	margin-right: auto;
+	margin-left: auto;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.navbar {
+	margin-bottom: 0px;
+	background-color: #222244;
+	font-family: 'Amatic SC', cursive;
+	font-size: 2em;
+}
+										/*---- nav end----*/
+.down{
+	padding: 10px;
+	text-align: center;
+}
+
+
+
+.Projects, .Introduction{	
+	padding: 20px;
+	border: 20px;
+	width: 100%;
+	background-color: white;
+	text-align: center;
+}
+				/*--------------- first section------------------------ */
+
+.Introduction p{
+	font-family: arial, helvetica, sans-serif;
+	font-weight: bold;
+	font-size: 3em;
+	color: white;
+}
+
+p {
+	margin: 0 0 10px;
+	display: block;
+}
+
+.large{
+	width: 300px;
+	height:300px;
+	padding: 4px;
+	padding-bottom: 0px;
+	margin: 1px;
+	border-radius: 0px;
+	text-align: center;
+}
+.Introduction img{
+	padding-top: 1px;
+}
+
+.Introduction{
+	background-color: #222244;
+	margin-bottom: 5px;
+	height: 100%;
+}
+
+.Introduction h1{
+	font-family: 'Amatic SC', cursive;
+	font-weight: bold;
+	font-size: 8em;
+	color: white;
+	text-align: center;
+	margin-top: 3px;
+}
+
+.Introduction a{
+	font-family: arial, helvetica, sans-serif;
+	font-weight: lighter;
+	font-size: 2em;
+	color: white;
+	text-align: center;
+	text-decoration: none;
+}
+																			/* First section ends*/
+
+													/*  Summary section*/
+.Container-AboutMe {
+	margin: auto 50px auto 50px;
+	width: 90%;
+	height: 100%;
+	margin-bottom: 25px;
+}
+
+.AboutMe h1{
+	border-bottom-style: solid;
+	font-size: 50px;
+	margin-top: 3px;
+	padding-top: 15px;
+	margin-bottom: 0px;
+}
+
+.AboutMe h1 p{
+	text-align: center; font-family: 'Amatic SC', cursive;
+	font-size: 20px;
+	margin-top: 10px;
+}
+
+.medium{
+	width: 150px;
+	height:150px;
+	padding: 4px;
+	padding-top: 1px;
+	margin: 2px;
+	border-radius: 150px;
+	vertical-align:middle;
+}
+
+.AboutMe p {
+	text-align: left;	
+	font-size: 12px;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
+.AboutMe {
+	text-align: center;
+	color: black;
+	margin-bottom: 10px;
+	margin: auto 50px auto 50px;
+	
+}
+
+.Hobbies ul, li{
+	display: inline-block;
+
+}
+.Hobbies h3{
+	margin-top: 2px;
+	font-size: 25px;
+}
+.Hobbies p{
+	text-align: center;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
+.Hobbies ul, li, p, a{
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 10px;
+}
+.Hobbies a{
+	text-decoration: none;
+	color: #008080;
+}
+
+.Container-AboutMe .down .glyphicon {
+    color: gray;
+    font-size: 30px;
+    padding-right: 2px;
+    padding-top: 5px;	
+    text-align: center;
+
+}
+													/*summary section end*/
+				/*-------experience// education section ------------------------------------------------------------*/
+																		/* Experience section begins*/
+.Container-Experience{
+	background-color: #008080;
+	margin-top: 10px;
+	padding-top: 10px;
+	height: 100%;
+}
+#ed-title {
+	width: 90%;
+	margin: auto 50px auto 50px;
+	padding-left: 40px; 
+	padding-right:40px;
+	text-align: center;
+}
+
+.Education-Title{
+	margin-top: 5px;
+	color: white;
+	margin-bottom: 5px;
+}
+
+.Education-Title h1{
+	text-align: center;
+	border-bottom-style: solid;
+	font-size: 50px;
+}
+
+#ed-content h2, h4{
+	text-align: center;
+	
+}
+
+#ed-title #ed-content h2{
+	font-family: 'Amatic SC', cursive;
+	font-size: 35px;
+}
+
+#ed-title #ed-content h4{
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 25px;
+}
+
+#ed-title #ed-content p{
+	font-size: 12px;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
+#ed-title #ed-content strong{
+	font-size: 18px;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
+.row{
+	margin-left: 0px;
+	margin-right: 0px;
+	padding-left: 3px;
+}
+
+		/*--------------career section in experience-------------------------------*/
+
+
+#wk-experience{
+	width: 90%;
+	margin: auto 50px auto 50px;
+	padding-left: 40px; 
+	padding-right:40px;
+	text-align: center;
+}
+
+#work-experience {
+	background-color: #008080;
+	margin-top: 20px;
+	text-align: center;
+	color: white;
+	margin-bottom: 	10px;
+}
+
+
+
+
+.Work-Experience #work-experience h2, h4{
+	text-align: center;
+}
+
+.Work-Experience #work-experience h2{
+	font-size: 35px;
+}
+
+.Work-Experience #work-experience h4{
+	font-size: 25px;
+}
+
+.Work-Experience #work-experience strong{
+	font-size: 18px;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
+.Work-Experience #work-experience p{
+	font-size: 12px;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
+.Container-Experience .down .glyphicon {
+    color: white;
+    font-size: 30px;
+    padding-right: 2px;
+    padding-top: 5px;	
+    text-align: center;
+
+}
+
+/*-----------end of career in experience---------------------*/
+
+/*--------------------------Skills section-------*/
+
+.Container-skills{
+	background-color: white;
+	margin-top: 10px;
+	padding-top: 10px;
+	height: 100%;
+}
+.Skills-Content{
+	margin: auto 50px auto 50px;
+	padding-left: 40px; 
+	padding-right:40px;
+	text-align: center;
+	width: 90%;
+}
+.Container-skills #sk-content h2{
+	font-family: 'Amatic SC', cursive;
+	font-size: 50px;
+	border-bottom-style: solid;
+}
+
+#sk-content h4{
+	border-bottom-style: dotted;
+	font-family: 'Amatic SC', cursive;
+	font-size: 20px;
+}
+
+.Skills-Content p{
+	font-size:20px;
+	font-family: 'Amatic SC', cursive;
+}
+#sk-content li{
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 15px;	
+}
+
+
+
+
+			/*------------------------------Contact section begins----------------------------------------*/
+
+.Contact h1{
+	text-align: center;
+	font-size: 50px;
+	border-bottom-style: solid;
+}
+
+#contacts{
+	margin: auto 50px auto 50px;
+	padding-left: 40px; 
+	padding-right:40px;
+	text-align: center;
+	width: 90%;
+}
+
+.Contact h2{
+	text-align: center;
+	font-size: 32px;
+
+}
+
+.footer-bio a{
+	text-align: center;
+	font-size: 22px;
+	text-decoration: none;
+	color: white;
+	font-family: 'Amatic SC', cursive;
+
+}
+
+.Contact p{
+	text-align: center;
+	font-size: 18px;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
+.Contact{
+	background-color: #222244;
+	text-align: center;
+	color: white;
+	margin-top: 10px;
+	padding-top: 0px;
+	height: 100%;
+}
+.Contact{
+	color: white;
+	border-color: #008080; 
+	margin-top: -10px;
+}
+footer{
+	width: 100%;
+	background-color: ;
+}
+
+.footer-above{
+	background-color:#222244 ;
+	color: white;
+	border-bottom-style: solid;
+}
+
+.footer-below{
+	background-color: #222244;
+	color: white;	
+}
+
+ /*-------------------------------------------first section breaking points------------------------------------------------*/
+
+@media only screen and (min-width:768px ) { 
+
+	.large{
+		width: 400px;
+		height:360px;
+		padding: 4px;
+		margin: 1px;
+		border-radius: 0px;
+		text-align: center;
+	}
+	.Introduction img{
+		padding-top: 4px;
+	}
+
+	.Introduction{
+		background-color: #222244;
+		margin-bottom: 3px;
+		height: 100%;
+	}
+	.Introduction p{
+		margin-bottom: 3px;
+	}
+
+	.Introduction h1{
+		font-family: 'Amatic SC', cursive;
+		font-weight: bold;
+		font-size: 7em;
+		color: white;
+		text-align: center;
+		margin-top: 3px;
+	}
+
+	.Introduction a{
+		font-family: arial, helvetica, sans-serif;
+		font-weight: lighter;
+		font-size: 3em;
+		color: white;
+		text-align: center;
+		text-decoration: none;
+	}
+
+/*----------------About Me section--------------------------*/
+	.Container-AboutMe {
+	margin: auto 50px auto 50px;
+	width: 90%;
+	height: 100%;
+	margin-bottom: 25px;
+	}
+
+	.AboutMe h1{
+	border-bottom-style: solid;
+	font-size: 70px;
+	margin-top: 3px;
+	padding-top: 15px;
+	margin-bottom: 0px;
+	}
+
+	.AboutMe h1 p{
+		text-align: center; font-family: 'Amatic SC', cursive;
+		font-size: 26px;
+		margin-top: 10px;
+	}
+
+	.medium{
+		width: 200px;
+		height:200px;
+		padding: 4px;
+		padding-top: 10px;
+		margin: 2px;
+		margin-top: 20px;
+		border-radius: 150px;
+		vertical-align:middle;
+	}
+
+	.AboutMe p {
+		text-align: center;	
+		font-size: 15px;
+		font-family: 'Roboto Condensed', sans-serif;
+	}
+
+	.AboutMe {
+		text-align: center;
+		color: black;
+		margin-bottom: 10px;
+		margin: auto 50px auto 50px;
+		
+	}
+
+	.Hobbies ul, li{
+		display: inline-block;
+		padding-left: 1px;
+
+	}
+	.Hobbies h3{
+		margin-top: 2px;
+		font-size: 30px;
+	}
+	
+	.Hobbies ul, li, p, a{
+		text-align: center;
+		font-family: 'Roboto Condensed', sans-serif;
+		font-size: 15px;
+	}
+	.Hobbies a{
+		text-decoration: none;
+		color: #008080;
+	}
+
+	.Container-AboutMe .down .glyphicon {
+	    color: gray;
+	    font-size: 30px;
+	    padding-right: 2px;
+	    padding-top: 5px;	
+	    text-align: center;
+
+	}
+
+/*----------- Experience// Education section--------------------*/
+	.Container-Experience{
+	background-color: #008080;
+	margin-top: 10px;
+	padding-top: 10px;
+	height: 100%;
+	}
+	
+	.Education-Title{
+		margin-top: 5px;
+		color: white;
+		margin-bottom: 5px;
+	}
+
+	.Education-Title h1{
+		text-align: center;
+		border-bottom-style: solid;
+		font-size: 60px;
+	}
+
+	#ed-content h2, h4{
+		text-align: center;
+	}
+
+	#ed-title #ed-content h2{
+		font-family: 'Amatic SC', cursive;
+		font-size: 40px;
+	}
+
+	#ed-title #ed-content h4{
+		font-family: 'Roboto Condensed', sans-serif;
+		font-size: 25px;
+	}
+
+	#ed-title #ed-content p{
+		font-size: 15px;
+		font-family: 'Roboto Condensed', sans-serif;
+	}
+
+	#ed-title #ed-content strong{
+		font-size: 20px;
+		font-family: 'Roboto Condensed', sans-serif;
+	}
+
+	.row{
+		margin-left: 0px;
+
+		margin-right: 0px;
+		padding-left: 3px;
+	}
+
+
+
+/*-------------------Career part in Experience------*/
+
+		
+	.Work-experience{
+		width: 90%;
+		margin: auto 50px auto 50px;
+		padding-left: 40px; 
+		padding-right:40px;
+		text-align: center;
+	}
+
+	#work-experience {
+		background-color: #008080;
+		margin-top: 20px;
+		text-align: center;
+		color: white;
+		margin-bottom: 	10px;
+	}
+
+	blockquote{
+		border-style: solid;
+		border-color:#008080; 
+		margin-bottom: 0px;
+		font-size: 30px;
+	}
+
+
+	.Work-Experience #work-experience h2, h4{
+		text-align: center;
+	}
+
+	.Work-Experience #work-experience h2{
+		font-size: 40px;
+	}
+
+	.Work-Experience #work-experience h4{
+		font-size: 25px;
+		font-family: 'Roboto Condensed', sans-serif;
+	}
+
+	.Work-Experience #work-experience strong{
+		font-size: 20px;
+		font-family: 'Roboto Condensed', sans-serif;
+	}
+
+	.Work-Experience #work-experience p{
+		font-size: 15px;
+		font-family: 'Roboto Condensed', sans-serif;
+	}
+
+	.Container-Experience .down .glyphicon {
+	    color: white;
+	    font-size: 30px;
+	    padding-right: 2px;
+	    padding-top: 5px;	
+	    text-align: center;
+	}
+
+/*---------------------------- Skill section-------------------------------*/
+
+
+	.Container-skills{
+		background-color: white;
+		margin-top: 10px;
+		padding-top: 10px;
+		height: 100%;
+	}
+	.Skills-Content{
+		margin: auto 50px auto 50px;
+		padding-left: 40px; 
+		padding-right:40px;
+		text-align: center;
+		width: 90%;
+	}
+	.Container-skills #sk-content h2{
+		font-family: 'Amatic SC', cursive;
+		font-size: 60px;
+		border-bottom-style: solid;
+	}
+
+	#sk-content h4{
+		border-bottom-style: dotted;
+		font-family: 'Amatic SC', cursive;
+		font-size: 25px;
+	}
+
+	.Skills-Content p{
+		font-size:25px;
+		font-family: 'Amatic SC', cursive;
+	}
+	#sk-content li{
+		font-family: 'Roboto Condensed', sans-serif;
+		font-size: 19px;	
+	}
+/*---------------------------Foot section-----------------*/
+	.Contact h1{
+		text-align: center;
+		font-size: 55px;
+		font-family: 'Amatic SC', cursive;
+		border-bottom-style: solid;
+	}
+
+	#contacts{
+		margin: auto 50px auto 50px;
+		padding-left: 40px; 
+		padding-right:40px;
+		text-align: center;
+		width: 90%;
+	}
+
+	.Contact h3{
+		text-align: center;
+		font-family: 'Amatic SC', cursive;
+		font-size: 35px;
+		padding-top: 0px;
+		margin-top: 0px;
+
+	}
+
+	.footer-bio a{
+		text-align: center;
+		font-size: 25px;
+		text-decoration: none;
+		color: white;
+		font-family: 'Amatic SC', cursive;
+	}
+
+	.Contact p{
+		text-align: center;
+		font-size: 18px;
+		font-family: 'Roboto Condensed', sans-serif;
+	}
+
+	.Contact{  /*come here*/
+		background-color: #222244;
+		text-align: center;
+		color: white;
+		margin-top: 10px;
+		padding-top: 0px;
+		height: 100%;
+		color: white;
+		margin-top: 40px;
+
+	}
+	footer{
+		width: 100%;
+	}
+
+	.footer-above{
+		background-color:#222244 ;
+		color: white;
+		border-bottom-style: solid;
+	}
+
+	.footer-below{
+		background-color: #222244;
+		color: white;	
+	}
+
+}
+
+
+/*-------------------------------------------Second break 998 pixs---------------------------------------------*/
+
+@media only screen and (min-width:992px ) { 
+
+	.large{
+		width: 450px;
+		height:400px;
+		padding: 4px;
+		margin: 1px;
+		border-radius: 0px;
+		text-align: center;
+	}
+	.Introduction img{
+		padding-top: 4px;
+	}
+
+	.Introduction{
+		background-color: #222244;
+		margin-bottom: 3px;
+		height: 100%;
+	}
+	.Introduction p{
+		margin-bottom: 3px;
+	}
+
+	.Introduction h1{
+		font-family: 'Amatic SC', cursive;
+		font-weight: bold;
+		font-size: 9em;
+		color: white;
+		text-align: center;
+		margin-top: 3px;
+	}
+
+	.Introduction a{
+		font-family: arial, helvetica, sans-serif;
+		font-weight: lighter;
+		font-size: 3em;
+		color: white;
+		text-align: center;
+		text-decoration: none;
+	}
+
+/*----------------About Me section--------------------------*/
+
+	.Container-AboutMe {
+	margin: auto 50px auto 50px;
+	width: 90%;
+	height: 100%;
+	margin-bottom: 25px;
+	}
+	.AboutMe h1{
+	border-bottom-style: solid;
+	font-size: 70px;
+	margin-top: 30px;
+	padding-top: 15px;
+	margin-bottom: 0px;
+	}
+
+	.AboutMe h1 p{
+		text-align: center; font-family: 'Amatic SC', cursive;
+		font-size: 26px;
+		margin-top: 10px;
+	}
+
+	.medium{
+		width: 220px;
+		height:220px;
+		padding: 4px;
+		padding-top: 10px;
+		margin: 2px;
+		margin-top: 20px;
+		border-radius: 150px;
+		vertical-align:middle;
+	}
+
+	.AboutMe p {
+		text-align: left;	
+		font-size: 17px;
+		font-family: 'Roboto Condensed', sans-serif;
+	}
+
+	.AboutMe {
+		text-align: center;
+		color: black;
+		margin-bottom: 10px;
+		margin: auto 50px auto 50px;
+		
+	}
+
+	.Hobbies ul, li{
+		display: inline-block;
+		padding-left: 1px;
+
+	}
+	.Hobbies h3{
+		margin-top: 2px;
+		font-size: 33px;
+	}
+	
+	.Hobbies ul, li, p, a{
+		text-align: center;
+		font-family: 'Roboto Condensed', sans-serif;
+		font-size: 17px;
+	}
+	.Hobbies a{
+		text-decoration: none;
+		color: #008080;
+	}
+
+	.Container-AboutMe .down .glyphicon {
+	    color: gray;
+	    font-size: 33px;
+	    padding-right: 2px;
+	    padding-top: 5px;	
+	    text-align: center;
+
+	}
+
+/*----------- Experience// Education section--------------------*/
+	.Container-Experience{
+	background-color: #008080;
+	margin-top: 10px;
+	padding-top: 10px;
+	height: 100%;
+	}
+	
+	.Education-Title{
+		margin-top: 5px;
+		color: white;
+		margin-bottom: 5px;
+	}
+
+	.Education-Title h1{
+		text-align: center;
+		border-bottom-style: solid;
+		font-size: 65px;
+		margin-top: 40px;
+	}
+
+	#ed-content h2, h4{
+		text-align: center;
+	}
+
+	#ed-title #ed-content h2{
+		font-family: 'Amatic SC', cursive;
+		font-size: 43px;
+	}
+
+	#ed-title #ed-content h4{
+		font-family: 'Roboto Condensed', sans-serif;
+		font-size: 28px;
+	}
+
+	#ed-title #ed-content p{
+		font-size: 17px;
+		font-family: 'Roboto Condensed', sans-serif;
+	}
+
+	#ed-title #ed-content strong{
+		font-size: 22px;
+		font-family: 'Roboto Condensed', sans-serif;
+	}
+
+	.row{
+		margin-left: 0px;
+		margin-right: 0px;
+		padding-left: 3px;
+	}
+
+
+
+/*-------------------Career part in Experience------*/
+
+		
+	.Work-experience{
+		width: 90%;
+		margin: auto 50px auto 50px;
+		padding-left: 40px; 
+		padding-right:40px;
+		text-align: center;
+	}
+
+	#work-experience {
+		background-color: #008080;
+		margin-top: 20px;
+		text-align: center;
+		color: white;
+		margin-bottom: 	10px;
+	}
+	/*
+	blockquote{
+		border-style: solid;
+		border-color:#008080; 
+		margin-bottom: 0px;
+		font-size: 30px;
+	}*/
+
+
+	.Work-Experience #work-experience h2, h4{
+		text-align: center;
+	}
+
+	.Work-Experience #work-experience h2{
+		font-size: 45px;
+	/*	margin-top: 20px;*/
+	}
+
+	.Work-Experience #work-experience h4{
+		font-size: 27px;
+		font-family: 'Roboto Condensed', sans-serif;
+	}
+
+	.Work-Experience #work-experience strong{
+		font-size: 22px;
+		font-family: 'Roboto Condensed', sans-serif;
+	}
+
+	.Work-Experience #work-experience p{
+		font-size: 17px;
+		font-family: 'Roboto Condensed', sans-serif;
+	}
+
+	.Container-Experience .down .glyphicon {
+	    color: white;
+	    font-size: 33px;
+	    padding-right: 2px;
+	    padding-top: 5px;	
+	    text-align: center;
+	}
+
+/*---------------------------- Skill section-------------------------------*/
+
+
+	.Container-skills{
+		background-color: white;
+		margin-top: 10px;
+		padding-top: 10px;
+		height: 100%;
+		margin-bottom: 100px;
+	}
+	.Skills-Content{
+		margin: auto 50px auto 50px;
+		padding-left: 40px; 
+		padding-right:40px;
+		text-align: center;
+		width: 90%;
+	}
+	.Container-skills #sk-content h2{
+		font-family: 'Amatic SC', cursive;
+		font-size: 65px;
+		border-bottom-style: solid;
+		margin-top: 60px;
+	}
+
+	#sk-content h4{
+		border-bottom-style: dotted;
+		font-family: 'Amatic SC', cursive;
+		font-size: 28px;
+	}
+
+	.Skills-Content p{
+		font-size:27px;
+		font-family: 'Amatic SC', cursive;
+	}
+	#sk-content li{
+		font-family: 'Roboto Condensed', sans-serif;
+		font-size: 21px;	
+	}
+
+	.Container-skills .down .glyphicon {
+	    color:#008080;;
+	    font-size: 33px;
+	    padding-right: 2px;
+	    padding-top: 5px;	
+	    text-align: center;
+	}
+
+	/*---------------------------Foot section-----------------*/
+	/*---------------------------Foot section-----------------*/
+	.Contact h1{
+		text-align: center;
+		font-size: 60px;
+		font-family: 'Amatic SC', cursive;
+		border-bottom-style: solid;
+		margin-top: 50px;
+		padding-top: 50px;
+	}
+
+	#contacts{
+		margin: auto 50px auto 50px;
+		padding-left: 40px; 
+		padding-right:40px;
+		text-align: center;
+		width: 90%;
+	}
+
+	.Contact{
+		margin-top: 50px;
+		height: 600px;
+	}
+
+	.Contact h3{
+		text-align: center;
+		font-family: 'Amatic SC', cursive;
+		font-size: 38px;
+		padding-top: 0px;
+		margin-top: 0px;
+
+	}
+
+	.footer-bio a{
+		text-align: center;
+		font-size: 28px;
+		text-decoration: none;
+		color: white;
+		font-family: 'Amatic SC', cursive;
+	}
+
+	.Contact p{
+		text-align: center;
+		font-size: 22px;
+		font-family: 'Roboto Condensed', sans-serif;
+	}
+
+	.Contact{
+		background-color: #222244;
+		text-align: center;
+		color: white;
+		margin-top: 10px;
+		padding-top: 0px;
+		
+	}
+	.Contact{
+		color: white;
+		border-color: #008080; 
+		margin-top: -10px;
+	}
+	footer{
+		width: 100%;
+	}
+
+	.footer-above{
+		background-color:#222244 ;
+		color: white;
+		border-bottom-style: solid;
+	}
+
+	.footer-below{
+		background-color: #222244;
+		color: white;	
+	}
+
+
+}
+
+
+/*-------------------------Big Screen 1200 pix section-----------*/
+
+@media only screen and (min-width:1200px ) { 
+
+	.large{
+		width: 450px;
+		height:410px;
+		padding: 4px;
+		margin: 1px;
+		border-radius: 0px;
+		text-align: center;
+	}
+	.Introduction img{
+		padding-top: 1px;
+		margin-bottom: 2px;
+	}
+
+	.Introduction{
+		background-color: #222244;
+		margin-bottom: 3px;
+		height: 100%;
+	}
+	.Introduction p{
+		margin-bottom: 3px;
+	}
+
+	.Introduction h1{
+		font-family: 'Amatic SC', cursive;
+		font-weight: bold;
+		font-size: 10em;
+		color: white;
+		text-align: center;
+		margin-top: 10px;
+	}
+
+	.Introduction a{
+		font-family: arial, helvetica, sans-serif;
+		font-weight: lighter;
+		font-size: 3em;
+		color: white;
+		text-align: center;
+		text-decoration: none;
+		margin-top: 1px;
+	}
+
+/*----------------About Me section--------------------------*/
+
+	.Container-AboutMe {
+	margin: auto 50px auto 50px;
+	width: 90%;
+	height: 100%;
+	margin-bottom: 25px;
+	}
+	.AboutMe h1{
+	border-bottom-style: solid;
+	font-size: 70px;
+	margin-top: 30px;
+	padding-top: 15px;
+	margin-bottom: 0px;
+	}
+
+	.AboutMe h1 p{
+		text-align: center; font-family: 'Amatic SC', cursive;
+		font-size: 26px;
+		margin-top: 10px;
+		margin-bottom: 95px;
+
+	}
+
+	.medium{
+		width: 230px;
+		height:230px;
+		padding: 4px;
+		padding-top: 10px;
+		margin: 2px;
+		margin-top: 20px;
+		border-radius: 150px;
+		vertical-align:middle;
+	}
+
+	.AboutMe p {
+		text-align: left;	
+		font-size: 17px;
+		font-family: 'Roboto Condensed', sans-serif;
+	}
+
+	.AboutMe {
+		text-align: center;
+		color: black;
+		margin-bottom: 10px;
+		margin: auto 50px auto 50px;
+		
+	}
+
+	.Hobbies ul, li{
+		display: inline-block;
+		padding-left: 1px;
+
+	}
+	.Hobbies h3{
+		margin-top: 2px;
+		font-size: 33px;
+	}
+	
+	.Hobbies ul, li, p, a{
+		text-align: center;
+		font-family: 'Roboto Condensed', sans-serif;
+		font-size: 17px;
+	}
+	.Hobbies a{
+		text-decoration: none;
+		color: #008080;
+	}
+
+	.Container-AboutMe .down .glyphicon {
+	    color: gray;
+	    font-size: 33px;
+	    padding-right: 2px;
+	    padding-top: 5px;	
+	    text-align: center;
+
+	}
+
+/*----------- Experience// Education section--------------------*/
+	.Container-Experience{
+	background-color: #008080;
+	margin-top: 10px;
+	padding-top: 10px;
+	height: 100%;
+	}
+	
+	.Education-Title{
+		margin-top: 5px;
+		color: white;
+		margin-bottom: 5px;
+	}
+
+	.Education-Title h1{
+		text-align: center;
+		border-bottom-style: solid;
+		font-size: 65px;
+		margin-top: 50px;
+	}
+
+	#ed-content h2, h4{
+		text-align: center;
+	}
+
+	#ed-title #ed-content h2{
+		font-family: 'Amatic SC', cursive;
+		font-size: 43px;
+	}
+
+	#ed-title #ed-content h4{
+		font-family: 'Roboto Condensed', sans-serif;
+		font-size: 28px;
+	}
+
+	#ed-title #ed-content p{
+		font-size: 17px;
+		font-family: 'Roboto Condensed', sans-serif;
+	}
+
+	#ed-title #ed-content strong{
+		font-size: 22px;
+		font-family: 'Roboto Condensed', sans-serif;
+	}
+
+	.row{
+		margin-left: 0px;
+		margin-right: 0px;
+		padding-left: 3px;
+	}
+
+
+
+/*-------------------Career part in Experience------*/
+
+		
+	.Work-experience{
+		width: 90%;
+		margin: auto 50px auto 50px;
+		padding-left: 40px; 
+		padding-right:40px;
+		text-align: center;
+	}
+
+	#work-experience {
+		background-color: #008080;
+		margin-top: 20px;
+		text-align: center;
+		color: white;
+		margin-bottom: 	10px;
+	}
+	/*
+	blockquote{
+		border-style: solid;
+		border-color:#008080; 
+		margin-bottom: 0px;
+		font-size: 30px;
+	}*/
+
+
+	.Work-Experience #work-experience h2, h4{
+		text-align: center;
+	}
+
+	.Work-Experience #work-experience h2{
+		font-size: 45px;
+		margin-top: -5px;
+	}
+
+	.Work-Experience #work-experience h4{
+		font-size: 27px;
+		font-family: 'Roboto Condensed', sans-serif;
+	}
+
+	.Work-Experience #work-experience strong{
+		font-size: 22px;
+		font-family: 'Roboto Condensed', sans-serif;
+	}
+
+	.Work-Experience #work-experience p{
+		font-size: 17px;
+		font-family: 'Roboto Condensed', sans-serif;
+	}
+
+	.Container-Experience .down .glyphicon {
+	    color: white;
+	    font-size: 33px;
+	    padding-right: 2px;
+	    padding-top: 5px;	
+	    text-align: center;
+	}
+
+/*---------------------------- Skill section-------------------------------*/
+
+
+	.Container-skills{
+		background-color: white;
+		margin-top: 10px;
+		padding-top: 10px;
+		margin-bottom: 90px;
+		height: 100%;
+	}
+	.Skills-Content{
+		margin: auto 50px auto 50px;
+		padding-left: 40px; 
+		padding-right:40px;
+		text-align: center;
+		width: 90%;
+	}
+	.Container-skills #sk-content h2{
+		font-family: 'Amatic SC', cursive;
+		font-size: 65px;
+		border-bottom-style: solid;
+		margin-top: 40px;
+	}
+
+	#sk-content h4{
+		border-bottom-style: dotted;
+		font-family: 'Amatic SC', cursive;
+		font-size: 28px;
+	}
+
+	.Skills-Content p{
+		font-size:27px;
+		font-family: 'Amatic SC', cursive;
+	}
+	#sk-content li{
+		font-family: 'Roboto Condensed', sans-serif;
+		font-size: 21px;	
+	}
+
+	.Container-skills .down .glyphicon {
+	    color:#008080;;
+	    font-size: 33px;
+	    padding-right: 2px;
+	    padding-top: 5px;	
+	    text-align: center;
+	}
+
+	/*---------------------------Foot section-----------------*/
+	.Contact h1{
+		text-align: center;
+		font-size: 60px;
+		font-family: 'Amatic SC', cursive;
+		border-bottom-style: solid;
+		margin-top: 50px;
+		padding-top: 50px;
+	}
+
+	#contacts{
+		margin: auto 50px auto 50px;
+		padding-left: 40px; 
+		padding-right:40px;
+		text-align: center;
+		width: 90%;
+	}
+
+	
+
+	.Contact h3{
+		text-align: center;
+		font-family: 'Amatic SC', cursive;
+		font-size: 38px;
+		padding-top: 0px;
+		margin-top: 0px;
+
+	}
+
+	.footer-bio a{
+		text-align: center;
+		font-size: 28px;
+		text-decoration: none;
+		color: white;
+		font-family: 'Amatic SC', cursive;
+	}
+
+	.Contact p{
+		text-align: center;
+		font-size: 22px;
+		font-family: 'Roboto Condensed', sans-serif;
+	}
+
+	.Contact{
+		height: 600px;
+		background-color: #222244;
+		text-align: center;
+		color: white;
+		padding-top: 0px;
+		color: white;
+	}
+	footer{
+		width: 100%;
+	}
+
+	.footer-above{
+		background-color:#222244 ;
+		color: white;
+		border-bottom-style: solid;
+	}
+
+	.footer-below{
+		background-color: #222244;
+		color: white;	
+	}
+
+}
+
+
+
