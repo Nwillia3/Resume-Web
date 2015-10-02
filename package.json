@@ -1,0 +1,21 @@
+{
+  "name": "resume-web",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nwillia3/Resume-Web.git"
+  },
+  "author": "Steven Natera <snatera09@gmail.com> (https://github.com/snatera15)",
+  "bugs": {
+    "url": "https://github.com/Nwillia3/Resume-Web/issues"
+  },
+  "homepage": "https://github.com/Nwillia3/Resume-Web#readme",
+  "dependencies": {
+    "express": "^4.13.3"
+  }
+}
